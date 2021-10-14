@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire</title>
+</head>
+<body>
+    <flex>
+        <div class="boite">
+            <div class="gauche">
+                <h1>Nous contacter</h1>
+                <p>Nous serions ravis de vous entendre!</p>
+            </div>
+             <div class="droite">
+                 <form method="post" action="contenue.php">
+                <h3>Prénom:*</h3>
+                <input class="barre" type="text" name="prenom" placeholder="Entrez votre prénom"required="required">
+                <h3>Nom de famille:*</h3>
+                <input class="barre" type="text" name="nom-f" placeholder="Entrez votre nom de famille"required="required">
+                <h3>Email:*</h3>
+                <input class="barre" type="email" name="email"placeholder="Entrez l'email"required="required">
+                <h3>Commentaire:*</h3>
+                <textarea rows="15" class="barre-grosse"  name="commentaire" placeholder="Entrez votre commentaire" required="required" style=resize:vertical></textarea><br>
+                <input class="submit" type="submit" value="Soumettre">
+            </div>
+        </div>
+    </flex>
+</body>
+</html>
+
+
+
